@@ -19,12 +19,6 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '최지호') {
-    message.reply('아.. 야필패요?');
-  }
-});
-
-client.on('message', (message) => {
   if(message.content === '하') {
     message.reply('지호');
   }
