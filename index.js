@@ -24,4 +24,10 @@ client.on('message', (message) => {
   }
 });
 
+client.on('message', (message) => {
+  if(message.content === '이명박') {
+    message.reply(file-Discord.File(pic));
+  }
+});
+
 client.login(token);
