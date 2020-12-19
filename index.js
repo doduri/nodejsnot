@@ -14,7 +14,7 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '김민성') {
+  if(message.content === '럭루야 김민성') {
     message.reply('자zi가 너무 작아서 젖가락으로 자위하다가 나가서 뒤저버림');
   }
 });
@@ -26,9 +26,17 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '최지호') {
+  if(message.content === '럭루야 최지호') {
     message.reply('아.. 야필패요?');
   }
 });
+
+client.on('message', async message => {   
+  if (message.author.bot) return;  
+
+  if(message.content === "럭루야 핑"){ 
+    message.channel.send(`🏓\`${Date.now() - message.createdTimestamp}\`ms`);
+  }
+})
 
 client.login(token);
