@@ -4,6 +4,7 @@ const token =process.env.token;
 
 client.on('ready', () => {
   console.log('켰다.');
+  client.user.setActivity('하지호 먹기', { type: 'PLAYING' })
 });
 
 client.on('message', (message) => {
