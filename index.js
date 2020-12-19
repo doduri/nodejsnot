@@ -27,7 +27,7 @@ client.on('message', (message) => {
 
 client.on('message', (message) => {
   if(message.content === '럭루야 최지호') {
-    message.reply('아.. 야필패요?');
+    message.reply('아무 이유없이 차단하는거 꼴받네');
   }
 });
 
