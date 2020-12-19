@@ -41,7 +41,7 @@ client.on('message', async message => {
 
 client.on('message', (message) => {
   if(message.content === '럭루야 이명박') {
-    image.upload('file-discord.File');
+    image.upload('이명박.png');
   }
 });
 
