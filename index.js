@@ -20,8 +20,8 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '하') {
-    message.reply('지호구');
+  if(message.content === '하지호') {
+    message.reply('구');
   }
 });
 
